@@ -1,0 +1,16 @@
+body{
+  background: url(../images/chihuahua.png) no-repeat;
+  background-size: cover;
+}
+.input-wrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #D5CCC4;
+}
+
+.coffeList{
+  margin-top: 20px;
+}

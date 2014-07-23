@@ -3,11 +3,33 @@
   <script src="app.js"></script>
   <meta charset="utf-8">
   <title>Los Bodoques</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-  <input id="coffeInput" type="text">
-  <div class="coffeList">
-    
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h1>The coffe web</h1>
+        <img src="images/coffe.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-wrapper col-xs-12 col-sm-6 col-sm-offset-3">
+        <div class="row">
+          <div class="col-xs-12">
+            <input id="coffeInput"  class="form-control" type="text" placeholder="Add your favorite coffe">
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <ul class="coffeList col-xs-12">
+            <li>starbucks</li>
+            <li>juan valdez</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
