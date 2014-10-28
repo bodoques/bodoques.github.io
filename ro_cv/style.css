@@ -1,0 +1,62 @@
+body{
+  background: #9d9d9d;
+  padding: 20px 40px;
+}
+
+.container-fluid{
+  background: #eeeeee;
+  padding: 20px 30px;
+
+}
+
+.wrapper{
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAK0lEQVQYV2NkIBIwYlN35syZ/zBxExMTsBo6KcTmHKxWU6YQmw+xmkh1hQDrQBgLK3e8xQAAAABJRU5ErkJggg==) repeat;
+  padding: 20px 0;
+}
+section{
+  position: relative;
+}
+section h2{
+  margin-bottom: 0;
+}
+
+.green_bg{
+  color: white;
+  height: 100%;
+  position: relative;
+  background: #50a78f;
+  border-bottom: 10px solid #999999;
+  padding-top: 40px;
+}
+.green_bg a{
+  text-decoration: none;
+  color: white;
+}
+.triangle_line{
+  background: url(triangle.svg) repeat-x;
+  background-size: 10px 10px;
+  height: 10px;
+  width: 110px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.triangle_line.rotated{
+  transform: rotate(180deg);
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.svg-triangle{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;    
+}   
+
+.svg-triangle polygon {
+  fill:#98d02e;
+  stroke:#65b81d;
+  stroke-width:2;
+}
